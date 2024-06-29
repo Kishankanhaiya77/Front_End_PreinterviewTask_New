@@ -14,7 +14,6 @@ export const localDateFormat = (currentDate: Date) => {
   }).format(currentDate)
 }
 
-
 export const getNextButtonColor = (state:AppState): "red" | "blue" | "green" => {
     switch (state.buttonColor) {
       case "red":
