@@ -2,7 +2,7 @@ import React from 'react';
 import './displayTime.scss'
 
 interface props {
-    lastClicked: Date
+    lastClicked?: string
 }
 
 const DisplayTime: React.FC<props> = ({ lastClicked }) => {

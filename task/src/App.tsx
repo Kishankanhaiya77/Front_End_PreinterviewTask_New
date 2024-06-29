@@ -7,7 +7,7 @@ import './app.scss'
 interface AppProps { }
 
 export interface AppState {
-  lastClicked?(currentDate: Date): Date  ;
+  lastClicked?: string  ;
   buttonColor: "red" | "blue" | "green";
 }
 
