@@ -1,0 +1,21 @@
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px 
+}
+.button{
+    min-height: 36px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 180px;
+  }
+  .red{
+    background-color: red($color: #f35555);
+  }
+  .blue{
+    background-color: #5070f1;
+  }
+  .green{
+    background-color: #77eb7b;
+  }

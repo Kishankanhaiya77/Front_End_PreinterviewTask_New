@@ -1,0 +1,27 @@
+
+
+.TimeItem {
+  display: flex;
+  padding: 24px;
+  margin: 6px;
+  background-color: rgb(203 213 225);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .TimeItem {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    padding: 24px;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: rgb(203 213 225);
+    min-height: 20vh;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+}
