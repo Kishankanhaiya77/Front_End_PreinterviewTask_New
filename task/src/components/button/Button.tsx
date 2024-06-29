@@ -2,8 +2,8 @@ import React from 'react';
 import './button.scss'
 
 interface props {
-    onClick(): any,
-    buttonColor: string,
+    onClick:() => void,
+    buttonColor: "red" | "green" | "blue",
     title: string,
 }
 
